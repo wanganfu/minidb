@@ -1,0 +1,22 @@
+{
+    "name": "annon/db-manager",
+    "description": "Database manager.",
+    "type": "library",
+    "require": {
+        "ext-mysqli": "*",
+        "php": "~7.0"
+    },
+    "license": "MulanPSL2",
+    "autoload": {
+        "psr-4": {
+            "Annon\\DbManager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "anxan",
+            "email": "1435427137@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
